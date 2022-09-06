@@ -4,78 +4,7 @@
     box-sizing: border-box;
     font-family: 'Roboto Condensed', sans-serif;
   }
-  header {
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: #000000;
-    height: 100;
-  }
-  /*HEADER SUPERIOR*/
-  .header__superior {
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-  }
-  .logo img {
-    width: 300px;
-  }
-  /*BARRA MENÚ*/
-  .container__menú{
-    width: 100%;
-    height: 70px;
-    background: rgb(2, 2, 2) ;
-    padding: 0px 0px;
-    text-align: center;
-  }
-  .menú {
-    max-width: 1200px;
-    margin: auto;
-    height: 100%;
-  }
-  nav{
-    height: 100%;
-  }
-  .container__menú nav > ul > li {
-    height: 100%;
-    list-style: none;
-    text-align: left;
-  }
-  .container__menú nav > ul > li:first-child > a {
-    background-image: url(img/ho.png);
-    background-size: 30px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    padding: 30px 25px;
-  }
-  .container__menú nav > ul > li:first-child:hover > a {
-    background-image: url(img/ho.png);
-    background-size: 24px;
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
-  .container__menú nav > ul > li > a{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    font-size: 18px;
-    transition: all 300ms ease;
-    text-decoration: none;
-  }
-  .container__menú nav >ul{
-    display: flex;
-    text-align: center;
-  }
-  .container__menú nav > ul > li > a:hover{
-  color: #fc1226;
-  }
+ 
   /*BODY*/
   body,
   html {
